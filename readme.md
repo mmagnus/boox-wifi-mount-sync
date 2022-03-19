@@ -137,6 +137,10 @@ click on it to get sync window:
 
 Enjoy!
 
+# Tips
+
+Remember to start Ssh server after you reboot device.
+
 # SSH problem to connect
 
 If you have a problem to connect with ssh:
