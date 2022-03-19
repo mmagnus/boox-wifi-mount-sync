@@ -58,7 +58,7 @@ Now you can mount the device as a drive to your Linux/Mac:
 
 (on Mac you might have to install https://osxfuse.github.io)
 
-![](docs/books.png)
+![](docs/03.png)
 see your notes, AI generated text
 ![](docs/notes.jpg)
 or pngs
