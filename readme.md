@@ -51,6 +51,8 @@ Now you can mount the device as a drive to your Linux/Mac:
 	echo 'ssh' | sshfs -o password_stdin -o allow_other,default_permissions -p 2222 ssh@192.168.0.52:/storage/emulated/0 /Users/magnus/mnt/note/
 	# echo 'ssh' send this ssh as a passoword to sshfs
 
+(on Mac you might have to install https://osxfuse.github.io)
+
 ![](docs/books.png)
 see your notes, AI generated text
 ![](docs/notes.jpg)
