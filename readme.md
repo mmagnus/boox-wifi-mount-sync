@@ -133,7 +133,7 @@ The FFS will be open in the batch mode, see this icon in your menu bar:
 
 click on it to get sync window:
 
-<img src="docs/window.png" width="40%" />
+<img src="docs/window.jpg" width="40%" />
 
 Enjoy!
 
