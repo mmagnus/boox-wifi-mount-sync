@@ -1,15 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from __future__ import print_function
-
-import argparse
-import os
 # you can add more than one ips! for use ip still use a Python list e.g.
 # IPS = ['192.168.1.10']
 IPS = ['192.168.1.10', "192.168.0.52"]
 # path to your ffs_batch
-FFS_BATCH = "/Users/magnus/Documents/note.ffs_batch"
+FFS_BATCH = "/Users/magnus/workspace/boox-wifi-sync/note.ffs_batch"
 MNT_PATH  = "/Users/magnus/mnt/note/"
+
+
+import argparse
+import os
+
+
 def get_parser():
     parser = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
