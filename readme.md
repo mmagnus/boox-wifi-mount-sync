@@ -45,7 +45,7 @@ then you can type `ls` to see if you are connected to the device:
 	note
 	noteTemplate
 
-if this looks like above, congrats you are connected to you Boox device using ssh.
+if this looks like above, congrats you are connected to your Boox device using ssh.
 
 Now you can mount the device as a drive to your Linux/Mac:
 	
@@ -62,7 +62,7 @@ Now you can mount the device as a drive to your Linux/Mac:
 see your notes, AI generated text
 ![](docs/notes.jpg)
 or pngs
-![](docs/outspends.jpg)
+![](docs/notespngs.jpg)
 see screensavers:
 ![](docs/screensaver.jpg)
 
@@ -90,11 +90,11 @@ Save this configuration "note" to (for example) `~/Documents/note.ffs_batch`.
 
 # Sync over WiFi with FreeFileSync in batch mode
 
-OK, use can use `boox-wifi-sync.py` to make it all in batch.
+OK, now you can use `boox-wifi-sync.py` to run it all in batch.
 
 Open now the script, edit configuration:
 
-	# you can add more than one ips! for use ip still use a Python list e.g.
+	# you can add more than one ips! for use only one ip still use a Python list e.g.
 	# IPS = ['192.168.1.10']
 	IPS = ['192.168.1.10', "192.168.0.52"]
 	# path to your ffs_batch
@@ -125,7 +125,7 @@ and then run:
 	Unmount successful for /Users/magnus/mnt/note/
 	echo 'ssh' | sshfs -o password_stdin -o allow_other,default_permissions -p 2222 ssh@192.168.0.52:/storage/emulated/0 /Users/magnus/mnt/note/
 
-you see first the script will ping ips provided with IPS. The reason for that is that I noted on my Mac when try to mount using `sshfs` and the device under ip is not reachable this can easily hang my Mac and the only solution was to restart the whole machine.
+you see first, the script will ping ips provided with IPS. The reason for that is that I noted on my Mac when try to mount using `sshfs` and the device under ip is not reachable this can easily hang my Mac and the only solution was to restart the whole machine.
 
 The FFS will be open in the batch mode, see this icon in your menu bar:
 
