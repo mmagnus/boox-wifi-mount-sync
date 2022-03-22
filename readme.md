@@ -1,7 +1,14 @@
 # boox-wifi-sync
 
-Using ssh server at your Boox device (tested with Boox Note Air). 
+Using ssh server at your Boox device (tested with Boox Note Air).
+
 The device must be turn on, but does not have to be unlocked (when you use PIN).
+
+Remember to start Ssh server after you reboot device.
+
+You might need to restart ssh server if you move the device to a new Wifi network, to get an ip for that network.
+
+# Manual setup (to be able sync in batch later)
 
 Install [SSH server](https://play.google.com/store/apps/details?id=com.theolivetree.sshserverpro&hl=en&gl=US) using Play Store:
 
