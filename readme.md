@@ -1,4 +1,4 @@
-# boox-wifi-sync
+# boox-wifi-sync [mount your boox as a drive over Wifi]
 
 Using ssh server at your Boox device (tested with Boox Note Air).
 
