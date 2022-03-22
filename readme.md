@@ -141,6 +141,8 @@ Enjoy!
 
 Remember to start Ssh server after you reboot device.
 
+You might need to restart ssh server if you move the device to a new Wifi network, to get an ip for that network.
+
 # SSH problem to connect
 
 If you have a problem to connect with ssh:
