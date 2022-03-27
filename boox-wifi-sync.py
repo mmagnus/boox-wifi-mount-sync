@@ -41,8 +41,17 @@ if __name__ == '__main__':
             cmd = "echo 'ssh' | sshfs -o password_stdin -o allow_other,default_permissions -p 2222 ssh@" + h + ":/storage/emulated/0 " + MNT_PATH
             print(cmd)
             os.system(cmd)
-            # Documents/
+
+            cmd = "/Users/magnus/geekbook/geekbookapp.py -u -1"
+            print(cmd)
+            os.system(cmd)
+            
+            cmd = "open -a FreeFileSync /Users/magnus/workspace/boox-wifi-sync/papers.ffs_batch "
+            print(cmd)
+            os.system(cmd)  #"open -a FreeFileSync")# ~/Documents/NovaX.ffs_batch")
+
             cmd = "open -a FreeFileSync " + FFS_BATCH
+            print(cmd)
             os.system(cmd)  #"open -a FreeFileSync")# ~/Documents/NovaX.ffs_batch")
             import time
             # time.sleep(60)
