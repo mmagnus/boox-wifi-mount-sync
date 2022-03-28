@@ -1,9 +1,7 @@
 # boox-wifi-sync [mount your boox as a drive over Wifi]
 
-<b>
-What is great, you can even keep files open on your computer (Mac) and get "live" updates of editing at Boox (however you have to save a file at Boox). Pretty cool, hm?!
-</b>
-
+<b>What is great, you can even keep files open on your computer (Mac) and get "live" updates of editing at Boox (however you have to save a file at Boox). Pretty cool, hm?!</b>
+  
 Using ssh server at your Boox device (tested with Boox Note Air).
 
 The device must be turn on, but does not have to be unlocked (when you use PIN).
