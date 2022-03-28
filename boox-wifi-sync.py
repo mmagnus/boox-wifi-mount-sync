@@ -37,13 +37,11 @@ if __name__ == '__main__':
     hostnames = IPS
     for h in hostnames:
         if is_ok(h):
-            os.system('diskutil unmount /Users/magnus/mnt/note/')
+            os.system('diskutil unmount ' + MNT_PATH)
             cmd = "echo 'ssh' | sshfs -o password_stdin -o allow_other,default_permissions -p 2222 ssh@" + h + ":/storage/emulated/0 " + MNT_PATH
             print(cmd)
             os.system(cmd)
-            # Documents/
+           
             cmd = "open -a FreeFileSync " + FFS_BATCH
-            os.system(cmd)  #"open -a FreeFileSync")# ~/Documents/NovaX.ffs_batch")
-            import time
-            # time.sleep(60)
+            os.system(cmd)
             break
