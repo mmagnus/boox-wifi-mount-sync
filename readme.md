@@ -1,5 +1,7 @@
 # boox-wifi-sync [mount your boox as a drive over Wifi]
 
+Analogous to https://remarkablewiki.com/tech/ssh 
+
 <b>What is great, you can even keep files open on your computer (Mac) and get "live" updates of editing at Boox (however you have to save a file at Boox). Pretty cool, hm?!</b>
   
 Using ssh server at your Boox device (tested with Boox Note Air).
