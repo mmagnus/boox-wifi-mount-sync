@@ -1,7 +1,6 @@
 # boox-wifi-sync [mount your boox as a drive over Wifi]
 
-
-I STARTED USING https://syncthing.net AND IT WORKS MUCH SMOOTHER FOR MY USE CASE [no need for setting up IPs in a new network]
+<b style="color:red">I STARTED USING https://syncthing.net AND IT WORKS MUCH SMOOTHER FOR MY USE CASE [no need for setting up IPs in a new network]</b>
 
 
 Analogous to https://remarkablewiki.com/tech/ssh 
