@@ -1,5 +1,9 @@
 # boox-wifi-sync [mount your boox as a drive over Wifi]
 
+
+I STARTED USING https://syncthing.net AND IT WORKS MUCH SMOOTHER FOR MY USE CASE [no need for setting up IPs in a new network]
+
+
 Analogous to https://remarkablewiki.com/tech/ssh 
 
 <b>What is great, you can even keep files open on your computer (Mac) and get "live" updates of editing at Boox (however you have to save a file at Boox). Pretty cool, hm?!</b>
