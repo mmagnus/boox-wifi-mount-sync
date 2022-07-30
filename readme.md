@@ -2,7 +2,7 @@
 
 
 <h3>
-I STARTED USING https://syncthing.net AND IT WORKS MUCH SMOOTHER FOR MY USE CASE [e.g., no need for setting up IPs in a new network]. This app could also works for you better than the hack in here.
+I STARTED USING https://syncthing.net AND IT WORKS MUCH SMOOTHER FOR MY USE CASE [e.g., no need for setting up IPs in a new network]. This app could also work for you better than the hack in here.
 </h3>
 
 Analogous to https://remarkablewiki.com/tech/ssh 
